@@ -1,0 +1,64 @@
+.box {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+}
+
+.div {
+    width: 500px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff
+}
+
+.title {
+    color: rgb(116, 116, 116);
+    font-weight: 600
+}
+
+.list {
+    display: flex;
+    gap: 0px;
+    width: 500px;
+    height: 125px
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 150px;
+    height: 125px;;
+}
+
+#first {
+    background-color: rgb(97, 97, 210);
+}
+
+#second {
+    background-color: rgb(122, 78, 173);
+}
+
+#third {
+    background-color: rgb(187, 70, 63);
+}
+
+#fourth {
+    background-color: rgb(36, 138, 53);
+}
+
+.text {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.percentage {
+    color: #FFF;
+    font-size: 26px;
+}
